@@ -1,0 +1,54 @@
+GBLRT Freeware Licence
+Gabe's Big Landing Rate Tool
+Licence version 1 - 2 October 2026
+
+Copyright (c) 2026 Gabe. All rights reserved.
+
+1. Scope and ownership
+This licence covers GBLRT code, documentation and assets for which Gabe holds
+licensing rights. GBLRT is licensed, not sold. Ownership is retained by the
+respective copyright holders. Your flight data remains yours.
+
+2. Free use
+You may download, install and use GBLRT without charge on devices you control
+for lawful flight-simulation purposes. This includes personal, educational and
+organisational use, and using it in videos or streams, including monetised ones.
+You may make copies for your own installation and backup.
+
+3. Source and private changes
+Where source is supplied, you may inspect it, build it and make private changes
+for your own use. Providing source does not grant an open-source licence or
+permission to publish the source or distribute modified versions. Keep the
+copyright and licence notices with your copies.
+
+4. Redistribution and resale
+Without prior written permission from Gabe, you may not:
+- redistribute, upload, mirror, repackage or bundle GBLRT, its source or modified
+  versions, whether free of charge or for payment;
+- sell, rent, sublicense or charge for copies of GBLRT; or
+- remove its copyright/licence notices or misrepresent its ownership.
+You may share a link to an official download authorised by Gabe.
+Gabe may separately authorise distributors or grant other permissions in writing.
+
+5. Third-party material
+This licence does not grant rights to Microsoft Flight Simulator, SimConnect,
+Windows, .NET Framework, Visual C++ runtime files or other third-party material.
+Their own terms apply. The preserved original Feature Pack fallback archive is
+excluded from this licence and retains its original rights and terms.
+See THIRD_PARTY_NOTICES.txt. In particular, this licence does not authorise
+redistribution of Microsoft SDK/runtime files.
+
+6. Warranty and liability
+To the extent permitted by applicable law, GBLRT is supplied as is, without
+warranties of performance, accuracy, fitness for a particular purpose or
+uninterrupted operation. It is a simulation tool, not certified aviation
+software. Support and updates are not guaranteed.
+To the extent permitted by applicable law, the licensor is not liable for
+losses or damage arising from use of GBLRT. Nothing here excludes or limits
+liability that cannot legally be excluded, or affects mandatory consumer
+rights or other rights and exceptions that cannot legally be restricted.
+
+7. Other rights
+Rights not expressly granted by this licence are reserved. Separate written
+permission is required for uses outside the permissions above, except where
+applicable law gives you a right that this licence cannot restrict.
