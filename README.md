@@ -2,13 +2,19 @@
 
 A freeware landing-rate tool for Microsoft Flight Simulator 2024, by Gabe.
 
-This repository is the official downloads and update channel. The current public release is [GBLRT 1.0.30](https://github.com/Gabe-RWY09/GBLRT/releases/tag/v1.0.30).
+This repository is the official downloads and update channel. The current public release is [GBLRT 1.0.31](https://github.com/Gabe-RWY09/GBLRT/releases/tag/v1.0.31).
 
 ## Download and install
 
-Download **GBLRT_Setup_1.0.30.exe** from [Releases](https://github.com/Gabe-RWY09/GBLRT/releases/latest). Exit an older copy through its tray menu, then run Setup and choose your installation folder and optional desktop shortcut. The compiled ZIP is available for manual extraction; extract the entire ZIP and run RUN_APP.bat.
+Download **GBLRT_Setup_1.0.31.exe** from [Releases](https://github.com/Gabe-RWY09/GBLRT/releases/latest). Exit an older copy through its tray menu, then run Setup and choose your installation folder and optional desktop shortcut. The compiled ZIP is available for manual extraction; extract the entire ZIP and run RUN_APP.bat.
 
 Windows 10 version 1809+ / Windows 11 x64 and .NET Framework 4.7.2+ are required. Setup includes SimConnect and the Microsoft Visual C++ x64 runtime; prerequisite installation may require administrator approval. No SDK or development tools are needed for compiled downloads.
+
+## Side-on landing replay
+
+Open **History → select a landing → Replay / runway map** to watch the aircraft's saved approach and touchdown beside the telemetry graphs and overhead map. **Play / Pause**, **Restart** and the timeline slider control both views together. The first-touchdown marker remains fixed through bounces; later contacts have separate numbered markers. Playback holds on its final frame, and smaller windows scroll the plots while keeping controls visible.
+
+New landings save position, fresh AGL height, ground speed and ground state. Older telemetry shows a clearly labelled estimated path; records without telemetry show unavailable. Replay covers the saved final approach/contact window, normally -10 to +4 seconds around first touchdown. A nominal **3° reference** crosses the runway threshold at 50 ft when geometry is available; it is not the actual ILS angle. Height is relative to touchdown, and vertical scale is exaggerated. Missing geometry uses distance relative to first touchdown; gaps and implausible jumps are left unjoined. Estimates are display-only and do not overwrite history.
 
 ## SimBrief and flight analysis
 
@@ -35,7 +41,7 @@ Bounces retain the first touchdown rate, with later contacts in replay. Autoland
 
 Startup update checks are enabled for new users. A tray notification announces newer stable releases; check manually in **Settings → App & data → Check now**. Saved enabled and disabled choices are respected. Checks use only the official GBLRT GitHub channel. The app verifies download SHA-256 and size before offering **Install and restart**, and waits until you are no longer airborne or capturing a landing. Portable installations use manual replacement.
 
-Normal settings, history, profiles and themes remain in `%APPDATA%\MSFS2024LandingRateExpansion` across upgrades. Uninstall also retains this data. For portable mode, preserve `Data` and `portable.flag` beside the EXE when replacing files. Update checks do not upload flight history or simulator telemetry. SimBrief requests use the account you supply; online services receive normal web request metadata.
+Normal settings, history, profiles and themes remain in `%APPDATA%\MSFS2024LandingRateExpansion` across upgrades. Uninstall also retains this data. For portable mode, preserve `Data` and `portable.flag` beside the EXE when replacing files. Saved replay position/height also appears in history exports and local integration JSON; treat shared exports and LAN dashboards as flight-location data. Update checks do not upload flight history or simulator telemetry. SimBrief requests use the account you supply; online services receive normal web request metadata.
 
 ## Bug reports and feature requests
 
